@@ -1,0 +1,41 @@
+@media only screen and (max-width: 768px) {
+    .not-logged-in-main{
+        min-width: 75% !important;     
+    }
+}
+
+.not-logged-in-main{
+    width: 30vw !important;
+    border: 1px solid lightgray;
+    background-color: white;
+    justify-content: center;
+    padding: 0 !important;
+    height: 50vh;
+    margin-top: 10vh;
+}
+
+.not-logged-in-image{
+    /* margin-top: 0; */
+    width: 100%;
+    height: 15vh;
+    object-fit: contain;
+}
+
+.not-logged-in-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.not-logged-in-input{
+    background-color: rgb(247, 246, 246);
+    margin: 0 2vw 2vh 2vw;
+    min-height: 5vh;
+    padding: 0 1vw 0 1vw;    
+    border: 1px solid lightgray;
+}
+
+.not-logged-in-button{
+    margin: 0 2vw 2vh 2vw !important;
+    min-height: 5vh;
+    padding: 0 1vw 0 1vw;   
+}

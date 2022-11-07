@@ -1,0 +1,69 @@
+.icon{
+  font-size: 6rem;
+  position: relative;
+  top: 40vh;
+  left: 46vw;
+}
+
+.App{
+  background-color: #fafafa;
+}
+.app-header{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  overflow: hidden;
+  background-color: white;
+  object-fit: contain;  
+  /* border-bottom: 1px solid lightgray; */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 5vh;
+  justify-content: space-between;
+}
+
+.app-header img{
+  object-fit: contain;  
+  margin-left: 18vw;
+  width: 6rem;
+  height: 7rem;  
+}
+/* .app-posts{
+  padding: 1%;
+} */
+
+
+.app-signup{
+  display: flex;
+  flex-direction: column;
+}
+
+.app-modal-image{
+  width: 100%;
+  height: 12vh;
+  object-fit: contain;
+}
+
+.image-upload-main{
+  position: sticky;
+  top: 10vh;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  background-color: white;
+  border-top: 1px solid lightgray;
+}
+.image-upload-h3{
+  text-align: center;
+  margin: 1vh 0 3vh 0;
+}
+.image-progress{
+  width: 100%;
+}
